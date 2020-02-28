@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rel="http://purl.org/vocab/relationship"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <foaf:Person rdf:about="http://rdf.example.com/StepanArkadyevitchOblonsky">
+      <foaf:name>Stepan Arkadyevitch Oblonsky</foaf:name>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Matvey"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MihailStanislavitchGrinevitch"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MatronaPhilimonovna"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PhilipIvanitchNikitin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/Matvey">
+      <foaf:name>Matvey</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:employedBy rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/AnnaArkadyevnaKarenina">
+      <foaf:name>Anna Arkadyevna Karenina</foaf:name>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/SergeiAlexeiichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Annushka"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/SergeiAlexeiichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Vronskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/LidiaIvanovna"/>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/DaryaAlexandrovnaOblonskaya">
+      <foaf:name>Dolly</foaf:name>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Matvey"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+   </foaf:Person>
+
+   <foaf:Person rdf:about="http://rdf.example.com/MatronaPhilimonovna">
+      <foaf:name>Matrona Philimonovna</foaf:name>
+      <rel:employedBy rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:employedBy rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/GrishaOblonsky">
+      <foaf:name>Grisha</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/TanyaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/TanyaOblonskaya">
+      <foaf:name>Tanya</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/GrishaOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/AlexeiAlexandrovichKarenin">
+      <foaf:name>Alexei Alexandrovich Karenin</foaf:name>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/SergeiAlexeiichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/LidiaIvanovna"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/SergeiAlexeiichKarenin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/PhilipIvanitchNikitin">
+      <foaf:name>Philip Ivanitch Nikitin</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MihailStanislavitchGrinevitch"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/SergeiIvanovichKoznyshev"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/MihailStanislavitchGrinevitch">
+      <foaf:name>Mihail Stanislavitch Grinevitch</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PhilipIvanitchNikitin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/SergeiIvanovichKoznyshev">
+      <foaf:name>Sergey Koznishev</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/NikolaiDmitrievichLevin">
+      <foaf:name>Nikolai Levin</foaf:name>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/SergeiIvanovichKoznyshev"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/SergeiIvanovichKoznyshev"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MrKritsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MaryaNikolaevna"/>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/MaryaNikolaevna"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/NikolayShtcherbatsky">
+      <foaf:name>Nikolay Shtcherbatsky</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/MlleLinon">
+      <foaf:name>Mlle. Linon</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya">
+      <foaf:name>Kitty</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/CountessNordston"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MlleLinon"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/YegorushkaKorsunsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/PrincessShtcherbatskaya">
+      <foaf:name>Princess Shtcherbatskaya</foaf:name>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLwvin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/CountessNordston">
+      <foaf:name>Countess Nordston</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/KonstantinDmitrievitchLevin">
+      <foaf:name>Konstantin Dmitrievitch Levin</foaf:name>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/SergeiIvanovichKoznyshev"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/CountessNordston"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MihailStanislavitchGrinevitch"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MaryaNikolaevna"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PhilipIvanitchNikitin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MrKritsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolayShtcherbatsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MlleLinon"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AgafeaMihalovna"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/SergeiIvanovichKoznyshev"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrinceShtcherbatsky"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/AlexeiKirillovitchVronsky">
+      <foaf:name>Alexei Kirillovitch Vronsky</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/DaryaAlexandrovnaOblonskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/PrincessShtcherbatskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Vronskaya"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/Petritsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/BaronessShilton"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/Vronskaya"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/CountessVronskaya">
+      <foaf:name>Countess Vronskaya</foaf:name>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/SergeiAlexeiichKarenin">
+      <foaf:name>Seryozha</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <rel:relativeOf rdf:resource="http://rdf.example.com/StepanArkadyevitchOblonsky"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/YegorushkaKorsunsky">
+      <foaf:name>Yegorushka Korsunsky</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/EkaterinaAlexandrovnaShcherbatskaya"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/MrKritsky">
+      <foaf:name>Mr. Kritsky</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MaryaNikolaevna"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/MaryaNikolaevna">
+      <foaf:name>Marya Nikolaevna</foaf:name>
+      <rel:spouseOf rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/NikolaiDmitrievichLevin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/MrKritsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/AgafeaMihalovna">
+      <foaf:name>Agafea Mihalovna</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+      <rel:employedBy rdf:resource="http://rdf.example.com/KonstantinDmitrievichLevin"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/Annushka">
+      <foaf:name>Annushka</foaf:name>
+      <rel:employedBy rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/LidiaIvanovna">
+      <foaf:name>Lidia Ivanovna</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiAlexandrovichKarenin"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AnnaArkadyevnaKarenina"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/BaronessShilton">
+      <foaf:name>Baroness Shilton</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/Petritsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+   </foaf:Person>
+   <foaf:Person rdf:about="http://rdf.example.com/Petritsky">
+      <foaf:name>Petritsky</foaf:name>
+      <foaf:knows rdf:resource="http://rdf.example.com/AlexeiKirillovichVronsky"/>
+      <foaf:knows rdf:resource="http://rdf.example.com/BaronessShilton"/>
+   </foaf:Person>
+</rdf:RDF>
